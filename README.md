@@ -16,7 +16,14 @@
 Скриншоты:
 
 ![Screen1](https://github.com/MrVanG0gh/Netology_sflt_03/blob/main/screens/Screen1_1.png)
+Команда для выполнения резервного копирования согласно заданию
+```
+sudo rsync -ac /home/van/ /tmp/backup/ --exclude '.*' --progress
+```
 ![Screen2](https://github.com/MrVanG0gh/Netology_sflt_03/blob/main/screens/Screen1_2.png)
+Результат работы команды
+![Screen3](https://github.com/MrVanG0gh/Netology_sflt_03/blob/main/screens/Screen1_3.png)
+Сравнение содержимого директорий
 
 ---
 
